@@ -1,0 +1,10 @@
+JSUrl
+-----
+
+JSUrl aims to encapsulate the reading and manipulating of URLs in JavaScript.
+It is released by Paul Annesley under the MIT Open Source licence.
+
+Example:
+
+var url = JSUrl.current();
+if (!url.hasParameter('page')) url.prependParameter('page', '1').go();
