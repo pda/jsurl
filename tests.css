@@ -1,0 +1,36 @@
+body {
+	font-family: "Monaco", sans-serif;
+	margin: 0 2em;
+	font-size: 0.8em;
+}
+
+p {
+	margin: 0;
+	padding: 0.1em 1em;
+}
+
+.pass {
+	background-color: #eeffee;
+	color: #004400;
+	border-left: 0.5em solid #ddffdd;
+}
+
+.fail {
+	background-color: #ffeeee;
+	color: #dd0000;
+	border-left: 0.5em solid #f88;
+}
+
+.summary {
+	background-color: #eeeeff;
+	color: blue;
+	margin: 1em 0;
+	border-left: 0.5em solid #ddddff;
+}
+
+.heading {
+	background-color: #eeeeee;
+	margin: 1em 0 0.2em 0;
+	font-size: 1.1em;
+	border-left: 0.5em solid #dddddd;
+}
